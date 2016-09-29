@@ -105,10 +105,6 @@ footer li img {
   height: 32px;
 }
 
-.nav-btn {
-  
-}
-
 .nav-btn a {
   cursor: pointer;
   padding: 5px 12px;
@@ -149,8 +145,12 @@ a:visited {
 	}
 	.nav-btn a {
 		padding: 1px 7px;
+		border: none;
 	}
 	.jumbotron p {
 		font-size: 18px;
+	}
+	.jumbotron h2 {
+		font-size: 40px;
 	}
 }
