@@ -1,6 +1,7 @@
 </div>
 	</div>
 </section>
+
 <footer class="container">
   <div class="row">
     <p class="col-sm-4">&copy; 2016 SpaceBaar&nbspEditography</p>
@@ -23,5 +24,9 @@
     </ul>
   </div>
 </footer>
-</body>
-</html>	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
