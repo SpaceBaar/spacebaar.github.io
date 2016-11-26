@@ -4,8 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-language" content="ll-cc">
+    <meta name="description" content="SpaceBaar Editography Porfolio, showcasing all the Edits.">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>SpaceBaar Editography</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34187384-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
     <style>
 	body { padding-top: 55px; }
 	</style>
@@ -18,8 +30,7 @@
     <script src="photo-gallery.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>-->
-
-
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +62,6 @@
         <li class="active"><a href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
         <li><a href="http://blog.spacebaar.com">Blog</a></li>
         <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>
         <!--<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -93,99 +103,100 @@
   
   <div class="row">
     <div class="col-md-4">
-      <a href="pulpitrock.jpg" class="thumbnail">
+		<a class="thumbnail">
         
-        <img src="edits/IMG_2814.jpg" alt="Pulpit Rock" style="width:400px;height:250px">
+        <img src="edits/IMG_2814.jpg" id="1" data-toggle="modal" data-target="#myModal" alt="Pulpit Rock" style="width:400px;height:250px">
+		</a>
+        
+    </div>
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/IMG_2989-Edit.jpg" id="2" data-toggle="modal" data-target="#myModal" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="moustiers-sainte-marie.jpg" class="thumbnail">
+      <a class="thumbnail">
         
-        <img src="edits/IMG_2989-Edit.jpg" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="cinqueterre.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_3370.jpg" alt="Cinque Terre" style="width:400px;height:250px">
-      </a>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-md-4">
-      <a href="pulpitrock.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_5884.jpg" alt="Pulpit Rock" style="width:400px;height:250px">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="moustiers-sainte-marie.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_55351.jpg" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="cinqueterre.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_97791.jpg" alt="Cinque Terre" style="width:400px;height:250px">
+        <img src="edits/IMG_3370.jpg" id="3" data-toggle="modal" data-target="#myModal" alt="Cinque Terre" style="width:400px;height:250px">
       </a>
     </div>
   </div>
   
   <div class="row">
     <div class="col-md-4">
-      <a href="pulpitrock.jpg" class="thumbnail">
+      <a class="thumbnail">
         
-        <img src="edits/IMG_20160208_143944.jpg" alt="Pulpit Rock" style="width:400px;height:250px">
+        <img src="edits/IMG_5884.jpg" id="4" data-toggle="modal" data-target="#myModal" alt="Pulpit Rock" style="width:400px;height:250px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="moustiers-sainte-marie.jpg" class="thumbnail">
+      <a  class="thumbnail">
         
-        <img src="edits/IMG_20160210_181338265_HDR.jpg" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
+        <img src="edits/IMG_55351.jpg" id="5" data-toggle="modal" data-target="#myModal" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="cinqueterre.jpg" class="thumbnail">
+      <a class="thumbnail">
         
-        <img src="edits/IMG_20160210_181444871.jpg" alt="Cinque Terre" style="width:400px;height:250px">
-      </a>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-md-4">
-      <a href="pulpitrock.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_20160210_181711359.jpg" alt="Pulpit Rock" style="width:400px;height:250px">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="moustiers-sainte-marie.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_0716.jpg" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="cinqueterre.jpg" class="thumbnail">
-        
-        <img src="edits/IMG_2634.jpg" alt="Cinque Terre" style="width:400px;height:250px">
+        <img src="edits/IMG_97791.jpg" id="6" data-toggle="modal" data-target="#myModal" alt="Cinque Terre" style="width:400px;height:250px">
       </a>
     </div>
   </div>
   
   <div class="row">
     <div class="col-md-4">
-      <a href="pulpitrock.jpg" class="thumbnail">
+      <a class="thumbnail">
         
-        <img src="edits/First.jpg" alt="Pulpit Rock" style="width:400px;height:250px">
+        <img src="edits/IMG_20160208_143944.jpg" id="7" data-toggle="modal" data-target="#myModal" alt="Pulpit Rock" style="width:400px;height:250px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="moustiers-sainte-marie.jpg" class="thumbnail">
+      <a class="thumbnail">
         
-        <img src="edits/DSC087581.jpg" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
+        <img src="edits/IMG_20160210_181338265_HDR.jpg" id="8" data-toggle="modal" data-target="#myModal" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/IMG_20160210_181444871.jpg" id="9" data-toggle="modal" data-target="#myModal" alt="Cinque Terre" style="width:400px;height:250px">
+      </a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/IMG_20160210_181711359.jpg" id="10" data-toggle="modal" data-target="#myModal" alt="Pulpit Rock" style="width:400px;height:250px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/IMG_0716.jpg" id="11" data-toggle="modal" data-target="#myModal" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/IMG_2634.jpg" id="12" data-toggle="modal" data-target="#myModal" alt="Cinque Terre" style="width:400px;height:250px">
+      </a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/First.jpg" id="13" data-toggle="modal" data-target="#myModal" alt="Pulpit Rock" style="width:400px;height:250px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a class="thumbnail">
+        
+        <img src="edits/DSC087581.jpg" id="14" data-toggle="modal" data-target="#myModal" alt="Moustiers Sainte Marie" style="width:400px;height:250px">
       </a>
     </div>
     <div class="col-md-4">
@@ -196,6 +207,16 @@
     </div>
   </div>
   
+  <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img class="img-responsive" src="" />
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <!--<ul class="row">
   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
@@ -256,5 +277,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function () {
+        $('#myModal').on('show.bs.modal', function (e) {
+            var image = $(e.relatedTarget).attr('src');
+            $(".img-responsive").attr("src", image);
+        });
+	});
+	</script>
   </body>
 </html>
